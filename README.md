@@ -1,3 +1,5 @@
+# ML-Basics
+
 Welcome to **ml-basics**, a repository where I implement core Machine Learning algorithms from the ground up using Python — with **no high-level libraries** like Scikit-learn. This repo also includes clear notes and concise explanations on **ML foundational concepts**, meant to build strong mathematical and theoretical intuition.
 
 > This is part of my learning journey towards mastering machine learning fundamentals — especially important for interview prep and entrance tests, research roles, or competitive ML settings.
@@ -13,7 +15,7 @@ Algorithms coded purely from first principles using Python and NumPy:
 - [x] Decision Trees
 - [ ] Support Vector Machines (coming soon)
 - [ ] K-Means Clustering
-- [ ] PCA (Principal Component Analysis)
+- [x] PCA (Principal Component Analysis)
 - [ ] Naive Bayes
 - [ ] K-Nearest Neighbors
 - [ ] Gradient Descent (Custom for models)
