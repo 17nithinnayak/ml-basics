@@ -13,6 +13,7 @@ Algorithms coded purely from first principles using Python and NumPy:
 - [x] Linear Regression
 - [x] Logistic Regression
 - [x] Decision Trees
+- [x] Random Forests
 - [ ] Support Vector Machines (coming soon)
 - [ ] K-Means Clustering
 - [x] PCA (Principal Component Analysis)
