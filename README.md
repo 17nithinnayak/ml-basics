@@ -14,13 +14,10 @@ Algorithms coded purely from first principles using Python and NumPy:
 - [x] Logistic Regression
 - [x] Decision Trees
 - [x] Random Forests
-- [ ] Support Vector Machines (coming soon)
-- [ ] K-Means Clustering
+- [x] Support Vector Machines 
+- [ ] K-Means Clustering (coming soon)
 - [x] PCA (Principal Component Analysis)
-- [ ] Naive Bayes
-- [ ] K-Nearest Neighbors
-- [ ] Gradient Descent (Custom for models)
-- [ ] XGBoost (Manual version planned)
+
 
 Each implementation is:
 ---
