@@ -22,3 +22,14 @@ class NeuralNetwork:
             
             return self.final_output
 
+        def backward(self, X, y, output, learning_ratae):
+            output_error = y - output
+            output_delta = output_error * sigmoid_derivative(output)
+            hidden_error = output_delta.dot(self.hidden_output.T)
+            hidden_delta = hidden_error * sigmoid_derivative(self.hidden_output)
+
+            self.weights_hidden_output += self.hidden_output.T.dot(output_delta) * learning_rate
+            self.bias_output += np.sum(output_delta, axis=0, keepdims=True) * learning_rate
+
+            self.weights_input_hidden += X.T.dot(hidden_delta) * learning_rate
+            self.bias_hidden += np.sum(hidden_delta, axis=0, keepdims=True) * learning_rate
