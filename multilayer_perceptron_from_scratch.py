@@ -111,19 +111,20 @@ if __name__ == "__main__":
 /*Output:
 
 Training...
-Epoch 0, Loss: 0.290180
-Epoch 1000, Loss: 0.246786
-Epoch 2000, Loss: 0.220290
-Epoch 3000, Loss: 0.174588
-Epoch 4000, Loss: 0.147414
-Epoch 5000, Loss: 0.055508
-Epoch 6000, Loss: 0.016799
-Epoch 7000, Loss: 0.008729
-Epoch 8000, Loss: 0.005704
-Epoch 9000, Loss: 0.004177
+Epoch 0, Loss: 0.287402
+Epoch 1000, Loss: 0.249622
+Epoch 2000, Loss: 0.246787
+Epoch 3000, Loss: 0.225213
+Epoch 4000, Loss: 0.183162
+Epoch 5000, Loss: 0.132566
+Epoch 6000, Loss: 0.034345
+Epoch 7000, Loss: 0.013219
+Epoch 8000, Loss: 0.007579
+Epoch 9000, Loss: 0.005181
 
 Testing after training:
-Input: [0, 0] -> Prediction: 0.0591
-Input: [0, 1] -> Prediction: 0.9447
-Input: [1, 0] -> Prediction: 0.9456
-Input: [1, 1] -> Prediction: 0.0598*/
+Input: [0, 0] -> Prediction: 0.0641
+Input: [0, 1] -> Prediction: 0.9402
+Input: [1, 0] -> Prediction: 0.9400
+Input: [1, 1] -> Prediction: 0.0654
+*/
